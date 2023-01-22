@@ -1,0 +1,107 @@
+    nav a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        width: 100px;
+        height: 30px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    nav {
+        background-color: #000080;
+    }
+    
+    nav a:hover {
+        color: purple;
+    }
+    
+    .logo {
+        padding-top: 15px;
+    }
+    
+    .container {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    header {
+        text-align: center;
+        font-size: 13pt;
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .hero img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    h3 {
+        font-size: 40pt;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .shadow {
+        color: black;
+        text-shadow: 2px 1px 0px gray;
+        text-align: left;
+        font-size: 50pt;
+    }
+    
+    p[class="first paragraph"] {
+        text-align: justified;
+        font-size: 20px;
+    }
+    
+    p[class="first paragraph"]::first-letter {
+        font-size: 30px;
+    }
+    
+    .subscription {
+        width: 600px;
+        height: 340px;
+        text-align: center;
+        position: relative;
+        background-color: #f4f4f4;
+        /*  margin-bottom: 50px; */
+        margin: auto;
+    }
+    
+    .subscription>h2 {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    
+    .subscription>p {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    input.a {
+        width: 250px;
+        height: 20px;
+        margin: 5px 0;
+        border: 3px solid gray;
+        border-radius: 4px;
+    }
+    
+    input.b {
+        width: 100px;
+        padding: 5px 5px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        color: blueviolet;
+        border: 3px solid blueviolet;
+        border-radius: 4px;
+    }
+    
+    footer {
+        text-align: center;
+    }
